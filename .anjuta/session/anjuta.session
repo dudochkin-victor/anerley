@@ -1,0 +1,29 @@
+[Anjuta]
+Maximized=1
+Geometry=1920x1032+0+28
+
+[Project Manager]
+Shortcut=anerley-0.3.0//anerley//libanerley.la%%%anerley-0.3.0//src//anerley-account-starter%%%anerley-0.3.0//tests//test-aggregate-tp-feed%%%anerley-0.3.0//tests//test-presence-chooser%%%anerley-0.3.0//tests//test-simple-grid-view%%%anerley-0.3.0//tests//test-simple-ui%%%anerley-0.3.0//tests//test-tile-view%%%anerley-0.3.0//tests//test-tp-feed%%%anerley-0.3.0//tests//test-tp-observer%%%anerley-0.3.0//tests//test-tp-monitor-feed%%%anerley-0.3.0//tests//test-tp-user-avatar%%%anerley-0.3.0//tests//$(NULL)
+Expand=anerley-0.3.0%%%anerley-0.3.0//tests
+
+[File Loader]
+Files=../../anerley/anerley-econtact-item.c#26%%%../../anerley/anerley-econtact-item.h#26%%%../../anerley/anerley-ebook-feed.h#27%%%../../anerley/anerley-ebook-feed.c#141%%%../../tests/test-simple-ui.c#61%%%../../tests/test-simple-grid-view.c#1
+
+[Document Manager]
+bookmarks=<?xml version="1.0" encoding="UTF-8"?>\n<bookmarks/>\n
+
+[Execution]
+Run in terminal=2
+Working directories=../../../anerley-0.3.0
+
+[Build]
+Configuration list=1:Default:%%%1:Debug:Debug%%%1:Profiling:Profiling%%%1:Optimized:Optimized
+Selected Configuration=Default
+BuildArgs/Default=--enable-maintainer-mode
+BuildArgs/Debug=--enable-maintainer-mode 'CFLAGS=-g -O0' 'CXXFLAGS=-g -O0' 'JFLAGS=-g -O0' 'FFLAGS=-g -O0'
+BuildArgs/Profiling=--enable-maintainer-mode 'CFLAGS=-g -pg' 'CXXFLAGS=-g -pg' 'JFLAGS=-g -pg' 'FFLAGS=-g -pg'
+BuildArgs/Optimized=--enable-maintainer-mode 'CFLAGS=-O2' 'CXXFLAGS=-O2' 'JFLAGS=-O2' 'FFLAGS=-O2'
+
+[Debugger]
+Breakpoint=1:../../anerley/anerley-ebook-feed.c:141:0:
+Stop at beginning=2
